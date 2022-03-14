@@ -1,4 +1,4 @@
-import DevAnimation from "../animations/lf30_editor_iaoohpbm.json";
+import DevAnimation from "../animations/homepagedevanimation.json";
 import Lottie from "react-lottie";
 import {
   MDBCard,
@@ -42,7 +42,7 @@ export default function Home() {
         <Col className="d-flex flex-column justify-content-center" md={6}>
           <h1 className="text-sky-400">Hi, I am Yash!</h1>
           <h3>What do I do? Glad you asked!</h3>
-          <Title className="w-100" options={{ reverse: false, glare: true, "max-glare": 1, "glare-prerender": false }}>
+          <Title className="w-100 m-0" options={{ reverse: false, glare: true, "max-glare": 1, "glare-prerender": false }}>
             <MDBCard data-aos-mirror="true"
               data-aos="fade-right" className="custom-card1"
             >
@@ -97,7 +97,7 @@ export default function Home() {
         <div className="content">
           <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
             <MDBCol>
-              <Title className="w-100 m-0">
+              <Title className="w-100 h-100 m-0">
                 <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
                   <MDBCardBody>
                     <MDBCardTitle className="card-title">AdvanceProfileSearch</MDBCardTitle>
@@ -125,7 +125,7 @@ export default function Home() {
 
 
             <MDBCol>
-              <Title className="w-100 m-0">
+              <Title className="w-100 h-100 m-0">
                 <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
                   <MDBCardBody>
                     <MDBCardTitle className="card-title">Todo List App</MDBCardTitle>
@@ -152,7 +152,7 @@ export default function Home() {
             </MDBCol>
 
             <MDBCol>
-              <Title className="w-100 m-0">
+              <Title className="w-100 h-100 m-0">
                 <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
                   <MDBCardBody>
                     <MDBCardTitle className="card-title">StudentsDummyData-API</MDBCardTitle>

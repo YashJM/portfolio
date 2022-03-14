@@ -5,7 +5,7 @@ import { MDBIcon } from 'mdb-react-ui-kit';
 function NavBar() {
   return (
     <header>
-      <Navbar bg="none" expand="lg">
+      <Navbar bg="none" expand="lg" className="d-none d-lg-block">
         <Container>
           <Navbar.Brand href="/">
             <img
@@ -23,6 +23,18 @@ function NavBar() {
               <Nav.Link href="#link">Blog&nbsp;&nbsp;<MDBIcon fab icon="blogger" /></Nav.Link>
             </Nav>
           </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
+      <Navbar bg="none" expand="lg" className="d-block d-lg-none">
+        <Container>
+          <Navbar.Brand href="/">
+            <img
+              src="/images/logo-yash.svg"
+              alt="Yash Logo"
+              style={{height: "50px"}}
+            />
+          </Navbar.Brand>
         </Container>
       </Navbar>
     </header>

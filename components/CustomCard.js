@@ -23,7 +23,7 @@ function CustomCard({ data, title }) {
         </MDBCardText>
       </MDBCardBody>
       <MDBCardFooter>
-        <small className="text-muted">Last updated 3 mins ago</small>
+        <small className="text-muted">{"< />"}</small>
       </MDBCardFooter>
     </MDBCard>
   );
