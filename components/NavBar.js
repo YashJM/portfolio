@@ -1,6 +1,11 @@
 import React from "react";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import { MDBIcon } from 'mdb-react-ui-kit';
+import Lottie from "react-lottie";
+import avatarSolid from "../animations/icons/avatar-solid.json";
+import document from "../animations/icons/document.json";
+import code from "../animations/icons/code.json";
+import vlog from "../animations/icons/vlog.json";
 
 function NavBar() {
   return (
@@ -11,16 +16,44 @@ function NavBar() {
             <img
               src="/images/logo-yash.svg"
               alt="Yash Logo"
-              style={{height: "50px"}}
+              style={{ height: "50px" }}
             />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/about">About Me&nbsp;&nbsp;<MDBIcon fas icon="info-circle" /></Nav.Link>
-              <Nav.Link href="#link">Resume&nbsp;&nbsp;<MDBIcon fas icon="file" /></Nav.Link>
-              <Nav.Link href="#link">Projects&nbsp;&nbsp;<MDBIcon icon="terminal" /></Nav.Link>
-              <Nav.Link href="#link">Blog&nbsp;&nbsp;<MDBIcon fab icon="blogger" /></Nav.Link>
+              <Nav.Link href="/about">About Me
+                {<Lottie
+                  height={50}
+                  width={50}
+                  isClickToPauseDisabled={true}
+                  className="fluid-svg"
+                  options={{ loop: true, autoplay: true, animationData: avatarSolid }} />}
+              </Nav.Link>
+              <Nav.Link href="#link">Resume
+                {<Lottie
+                  height={50}
+                  width={50}
+                  isClickToPauseDisabled={true}
+                  className="fluid-svg"
+                  options={{ loop: true, autoplay: true, animationData: document }} />}
+              </Nav.Link>
+              <Nav.Link href="#link">Projects
+                {<Lottie
+                  height={50}
+                  width={50}
+                  isClickToPauseDisabled={true}
+                  className="fluid-svg"
+                  options={{ loop: true, autoplay: true, animationData: code }} />}
+              </Nav.Link>
+              <Nav.Link href="#link">Vlogs
+                {<Lottie
+                  height={50}
+                  width={50}
+                  isClickToPauseDisabled={true}
+                  className="fluid-svg"
+                  options={{ loop: true, autoplay: true, animationData: vlog }} />}
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -32,7 +65,7 @@ function NavBar() {
             <img
               src="/images/logo-yash.svg"
               alt="Yash Logo"
-              style={{height: "50px"}}
+              style={{ height: "50px" }}
             />
           </Navbar.Brand>
         </Container>

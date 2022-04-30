@@ -40,7 +40,8 @@ export default function Home() {
     <>
       <Row>
         <Col className="d-flex flex-column justify-content-center" md={6}>
-          <h1 className="text-sky-400">Hi, I am Yash!</h1>
+          <h1 className="text-sky-400">Hi, I am Yash!
+            <br /><hr /></h1>
           <h3>What do I do? Glad you asked!</h3>
           <Title className="w-100 m-0" options={{ reverse: false, glare: true, "max-glare": 1, "glare-prerender": false }}>
             <MDBCard data-aos-mirror="true"
@@ -62,10 +63,11 @@ export default function Home() {
         </Col>
       </Row>
       <div className="content">
-        <h1 className="text-center">
-          <Typist>
-            My Tech Stack.
-          </Typist>
+        <h1 className="d-flex align-items-center flex-column">
+          {/* <Typist> */}
+          My Tech Stack
+          {/* </Typist> */}
+          <hr />
         </h1>
       </div>
 
@@ -88,10 +90,11 @@ export default function Home() {
       </div>
 
       <div className="content">
-        <h1 className="text-center">
-          <Typist>
-            Projects.
-          </Typist>
+        <h1 className="d-flex align-items-center flex-column">
+          {/* <Typist> */}
+          Projects
+          {/* </Typist> */}
+          <hr />
         </h1>
 
         <div className="content">

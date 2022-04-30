@@ -16,7 +16,6 @@ export default function Layout({ children }) {
         />
         <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet" />
         <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
-
       </Head>
       <NavBar />
       <div className={"container"}>{children}</div>

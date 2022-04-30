@@ -45,6 +45,7 @@ a {
 
 * {
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .fluid-svg {
@@ -66,6 +67,12 @@ h1 {
   font-family: $font-primary;
   font-weight: 700 !important;
   font-size: 64px !important;
+
+  &:hover {
+    hr {
+      width: 200px;
+    }
+  }
 }
 
 h3 {
@@ -78,6 +85,15 @@ p {
   color: $color-secondary;
   font-family: $font-secondary;
   font-size: 16px;
+}
+
+hr {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  margin: 5px 0 !important;
+  width: 100px;
+  height: 3px !important;
+  opacity: 1 !important;
 }
 
 .paragraph {
@@ -110,6 +126,8 @@ header {
 }
 
 .nav-link {
+  display: flex !important;
+  align-items: center !important;
   color: $color-secondary !important;
   position: relative;
   margin-left: 50px;
@@ -198,7 +216,6 @@ header {
 .custom-btn-primary {
   background-color: $color-primary !important;
 }
-
 
 .custom-margin-right {
   margin-right: 5px;
