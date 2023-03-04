@@ -98,89 +98,115 @@ export default function Home() {
         </h1>
 
         <div className="content">
-          <MDBRow className='row-cols-1 row-cols-md-3 g-4'>
+          <MDBRow className='justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 g-4'>
             <MDBCol>
               <Title className="w-100 h-100 m-0">
                 <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
                   <MDBCardBody>
-                    <MDBCardTitle className="card-title">AdvanceProfileSearch</MDBCardTitle>
-                    <MDBCardText>lightweight filter and search app to allow searching through list of profiles and also add custom tags and search by tags.
-                    </MDBCardText>
-                    <div className="d-flex justify-content-start align-items-center">
-                      <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/AdvanceProfileSearch'>
-                        <MDBIcon fab icon='github' />
-                      </MDBBtn>
-                      <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://profilesearchandfilter.netlify.app/'>
-                        <MDBIcon fas icon="external-link-alt" />
-                      </MDBBtn>
-                    </div>
-                  </MDBCardBody>
-                  <MDBCardFooter className='text-muted'>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">ReactJs</MDBBadge>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MaterialUI</MDBBadge>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">NodeJs</MDBBadge>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MongoDB</MDBBadge>
-                    <CustomBadge text={"JavaScript"} />
-                  </MDBCardFooter>
-                </MDBCard>
-              </Title>
-            </MDBCol>
+                    <MDBCardTitle className="card-title">REST-Countries</MDBCardTitle>
+                    <MDBCardText>REST API integration to get a list of countries and display them in user friendly way.
+                      Allow users to view all countries, filter by region, search by name and view details of a country.
+                  </MDBCardText>
+                  <div className="d-flex justify-content-start align-items-center">
+                    <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/REST-Countries'>
+                      <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                    <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://sweet-genie-d7b155.netlify.app'>
+                      <MDBIcon fas icon="external-link-alt" />
+                    </MDBBtn>
+                  </div>
+                </MDBCardBody>
+                <MDBCardFooter className='text-muted'>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">React (Typescript)</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">Chakra UI</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">Axios</MDBBadge>
+                </MDBCardFooter>
+              </MDBCard>
+            </Title>
+          </MDBCol>
+
+          <MDBCol>
+            <Title className="w-100 h-100 m-0">
+              <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
+                <MDBCardBody>
+                  <MDBCardTitle className="card-title">AdvanceProfileSearch</MDBCardTitle>
+                  <MDBCardText>lightweight filter and search app to allow searching through list of profiles and also add custom tags and search by tags.
+                  </MDBCardText>
+                  <div className="d-flex justify-content-start align-items-center">
+                    <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/AdvanceProfileSearch'>
+                      <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                    <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://profilesearchandfilter.netlify.app/'>
+                      <MDBIcon fas icon="external-link-alt" />
+                    </MDBBtn>
+                  </div>
+                </MDBCardBody>
+                <MDBCardFooter className='text-muted'>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">ReactJs</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MaterialUI</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">NodeJs</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MongoDB</MDBBadge>
+                  <CustomBadge text={"JavaScript"} />
+                </MDBCardFooter>
+              </MDBCard>
+            </Title>
+          </MDBCol>
 
 
-            <MDBCol>
-              <Title className="w-100 h-100 m-0">
-                <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
-                  <MDBCardBody>
-                    <MDBCardTitle className="card-title">Todo List App</MDBCardTitle>
-                    <MDBCardText>
-                      A simple TODO list App created with React.Js ⚛️ , Node.js and MongoDB which performs some of the basic CRUD operations
-                    </MDBCardText>
-                    <div className="d-flex justify-content-start align-items-center">
-                      <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/todolistapp-mern'>
-                        <MDBIcon fab icon='github' />
-                      </MDBBtn>
-                      <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://todolist-mern-a433cb.netlify.app/'>
-                        <MDBIcon fas icon="external-link-alt" />
-                      </MDBBtn>
-                    </div>
-                  </MDBCardBody>
-                  <MDBCardFooter className='text-muted'>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">ReactJs</MDBBadge>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MaterialUI</MDBBadge>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">ReactJs</MDBBadge>
-                    <CustomBadge text={"JavaScript"} />
-                  </MDBCardFooter>
-                </MDBCard>
-              </Title>
-            </MDBCol>
+          <MDBCol>
+            <Title className="w-100 h-100 m-0">
+              <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
+                <MDBCardBody>
+                  <MDBCardTitle className="card-title">Todo List App</MDBCardTitle>
+                  <MDBCardText>
+                    A simple TODO list App created with React.Js ⚛️ , Node.js and MongoDB which performs some of the basic CRUD operations
+                  </MDBCardText>
+                  <div className="d-flex justify-content-start align-items-center">
+                    <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/todolistapp-mern'>
+                      <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                    <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://todolist-mern-a433cb.netlify.app/'>
+                      <MDBIcon fas icon="external-link-alt" />
+                    </MDBBtn>
+                  </div>
+                </MDBCardBody>
+                <MDBCardFooter className='text-muted'>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">ReactJs</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MaterialUI</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">ReactJs</MDBBadge>
+                  <CustomBadge text={"JavaScript"} />
+                </MDBCardFooter>
+              </MDBCard>
+            </Title>
+          </MDBCol>
 
-            <MDBCol>
-              <Title className="w-100 h-100 m-0">
-                <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
-                  <MDBCardBody>
-                    <MDBCardTitle className="card-title">StudentsDummyData-API</MDBCardTitle>
-                    <MDBCardText>Node js and MongoDB Rest API to get a list of dummy students data
-                    </MDBCardText>
-                    <div className="d-flex justify-content-start align-items-center">
-                      <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/StudentsDummyData-API'>
-                        <MDBIcon fab icon='github' />
-                      </MDBBtn>
-                      <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://studentsdataapi.herokuapp.com/list'>
-                        <MDBIcon fas icon="external-link-alt" />
-                      </MDBBtn>
-                    </div>
-                  </MDBCardBody>
-                  <MDBCardFooter className='text-muted'>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">NodeJs</MDBBadge>
-                    <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MongoDB</MDBBadge>
-                    <CustomBadge text={"JavaScript"} />
-                  </MDBCardFooter>
-                </MDBCard>
-              </Title>
-            </MDBCol>
-          </MDBRow>
-        </div>
+          <MDBCol>
+            <Title className="w-100 h-100 m-0">
+              <MDBCard className="shadow-none" style={{ maxWidth: '22rem' }}>
+                <MDBCardBody>
+                  <MDBCardTitle className="card-title">StudentsDummyData-API</MDBCardTitle>
+                  <MDBCardText>Node js and MongoDB Rest API to get a list of dummy students data
+                  </MDBCardText>
+                  <div className="d-flex justify-content-start align-items-center">
+                    <MDBBtn target="_blank" className="button-secondary" href='https://github.com/YashJM/StudentsDummyData-API'>
+                      <MDBIcon fab icon='github' />
+                    </MDBBtn>
+                    <MDBBtn target="_blank" className='m-1 custom-btn-primary' href='https://studentsdataapi.herokuapp.com/list'>
+                      <MDBIcon fas icon="external-link-alt" />
+                    </MDBBtn>
+                  </div>
+                </MDBCardBody>
+                <MDBCardFooter className='text-muted'>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">NodeJs</MDBBadge>
+                  <MDBBadge className='cursor-pointer custom-margin-right' tag="a" color="none">MongoDB</MDBBadge>
+                  <CustomBadge text={"JavaScript"} />
+                </MDBCardFooter>
+              </MDBCard>
+            </Title>
+          </MDBCol>
+        </MDBRow>
       </div>
+    </div>
     </>
   );
 }
