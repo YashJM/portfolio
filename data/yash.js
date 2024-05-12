@@ -7,10 +7,11 @@ class Yash {
     }
 
     introduce() {
-        console.log(`Hey, I'm ${this.name}! I'm a ${this.occupation} with hobbies like ${this.hobbies.join(', ')}.`);
+        console.log(`Hey, I'm ${this.name}! I'm a ${this.occupation}`);
         console.log(`People often describe me as ${this.personalityTraits.join(', ')}.`);
     }
 }
 
 const yash = new Yash();
 yash.introduce();
+
